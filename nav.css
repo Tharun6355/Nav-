@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1544627836-5f343438a7d6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1234&q=80);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 16px;
+}
+a:hover{
+    text-decoration-color: navy;
+}
+header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+    
+}
+.logo{
+    cursor: pointer;
+}
+.nav-area{
+    list-style: none;
+}
+.nav-area li{
+    display: inline-block;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+.nav-area li a{
+    transition: .3s;
+    color: #fff;
+}
+.nav-area li a:hover{
+    color: rgb(64, 151, 167);
+}
+.btn-area{
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background:radial-gradient(blue,red);
+}
+h1{
+    text-align: center;
+    color: rgb(15, 50, 70);
+    cursor: pointer;
+}
